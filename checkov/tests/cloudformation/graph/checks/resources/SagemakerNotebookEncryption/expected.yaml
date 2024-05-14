@@ -1,0 +1,6 @@
+pass:
+  - "AWS::SageMaker::NotebookInstance.BasicNotebookInstanceGood"
+fail:
+  - "AWS::SageMaker::NotebookInstance.BasicNotebookInstanceBad"
+evaluated_keys:
+  - "KmsKeyId"

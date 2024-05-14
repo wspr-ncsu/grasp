@@ -1,0 +1,7 @@
+pass:
+  - "aws_rds_cluster.pass"
+  - "aws_rds_cluster.pass_many_parameters"
+
+fail:
+  - "aws_rds_cluster.fail"
+  - "aws_rds_cluster.fail2"
